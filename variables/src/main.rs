@@ -22,7 +22,7 @@ fn main() {
     println!("\nNow lets look at tuples...\n");
 
     let tup = (500, 6.4, 1);
-    let (a, b, c) = tup;
+    let (_a, b, _c) = tup;
     let new_a = tup.0;
     println!("The value of b is: {b}");
     println!("Now using indexes to directly access the tuple...The value of a is: {new_a}");
